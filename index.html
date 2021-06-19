@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,600;1,700&display=swap" 
+    rel="stylesheet">
+
+    <title>Reduslim</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-background navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle="modal" data-target="#ModalForm">Заказать</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade" id="ModalForm" tabindex="-1" 
+role="dialog" aria-labelledby="ModalForm" aria-hidden="true">
+
+    <div class="modal-main">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-background">
+                <div class="modal-body">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div id="img-left2" class="col-md-0 col-sm-12"></div>
+                        </div>
+
+                        <div class="row">
+
+                            <div id="img-left" class="col-md-6 col-sm-12 pl-0 "></div>
+                            <div class="col-md-6 col-sm-12 pl-0">
+
+                                <div class="top-left-block">
+                                    <h2 style="padding-top: 30px;">Сделай шаг</h2>
+                                    <h2>к выздоровлению</h2>
+                                </div>
+
+                                <div class="top-left-block2">
+                                    <form>
+                                        <label for="InputEmail">ВАШЕ <span class="color-green">ИМЯ</span></label>
+                                        <input type="text" class="form-control" id="InputEmail" 
+                                        aria-describdby="emailHelp" placeholder="Алексей">
+
+                                        <label class="mt-3" for="InputEmail">ВАШ <span class="color-green">ТЕЛЕФОН</span></label>
+                                        <div class="flex-container">
+                                            <input type="tel" class="form-control width1" id="InputTel" 
+                                            aria-describdby="emailHelp" placeholder="+7 (123) 456 78-90">
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-primary dropdown-toggle width2" data-toggle="dropdown">
+                                                  RU <img class="images-country" src="../images/ru-image.png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">EN <img class="images-country" src="../images/ru-image.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary button-submit">
+                                            Заказать
+                                            <img src="../images/vector.png" alt="">
+                                        </button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="mobile-bottom">
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-2">
+                                    <p>Trusted</p>
+                                </div>
+                                <div class="col-2">
+                                    <img style="margin-left: 20px;" src="../images/lock.png" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <p>Secure</p>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
